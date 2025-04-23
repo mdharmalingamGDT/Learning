@@ -13,6 +13,11 @@ page 50101 "Customer Feedback Card"
                 field("Entry No."; Rec."Entry No.") { }
                 field("Customer Name"; Rec."Customer Name") { }
                 field("Feedback"; Rec."Feedback") { }
+                field(Closed; Rec.Closed)
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the Closed field.', Comment = '%';
+                }
                 field("Rating"; Rec."Rating") { }
             }
         }
