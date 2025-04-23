@@ -20,6 +20,10 @@ table 50100 "Customer Feedback"
         {
             DataClassification = CustomerContent;
         }
+        field(5; "Closed"; Boolean)
+        {
+            DataClassification = CustomerContent;
+        }
     }
 
     keys

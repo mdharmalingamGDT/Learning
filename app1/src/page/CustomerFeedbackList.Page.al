@@ -16,6 +16,11 @@ page 50102 "Customer Feedback List"
                 field("Entry No."; Rec."Entry No.") { }
                 field("Customer Name"; Rec."Customer Name") { }
                 field("Rating"; Rec."Rating") { }
+                field(Closed; Rec.Closed)
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the Closed field.', Comment = '%';
+                }
             }
         }
     }
